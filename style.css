@@ -1,0 +1,1447 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+/*<!-- ====================================== navbar ======================= -->*/
+.navbar{
+  width: 100%;
+    background-color: white;
+    overflow: hidden;
+    
+}
+.navbar a{
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    
+}
+.navbar a:hover{
+    color: rgb(89, 214, 89);
+}
+.logo img{
+    padding-top: 8px;
+    
+}
+.logo{
+    float: left;
+    padding: 8px 15px;
+}
+
+ .search-box{
+        display: flex;
+        align-items: center;
+        width: 400px;
+        padding: 15px 10px 0 10px;
+        float: right;
+}
+.search-class{
+  margin-left: -150px;
+}
+
+.search-class button{
+    border-radius: 20px 20px 20px 20px;
+    padding: 8px 180px 8px 120px;
+    
+} 
+.search-class p{
+  font-size: 17px;
+  margin-left: -90px;
+}
+.search-class i{
+  margin-left: -40px;
+}
+
+.search-class button:hover{
+ background-color: rgb(252, 255, 252);
+}
+.search-talent button{
+  border-radius: 5px 15px 15px 5px;
+  padding: 9px 10px 9px 10px;
+  margin-left: -71px;
+  border: 1px;
+}
+.search-talent button:hover{
+  background-color: rgb(252, 255, 252);
+}
+.search-icon{
+  display: none;
+}
+
+
+.login {
+    padding: 18px;
+    margin-left: 20px;
+    /* margin: 0 30px 0 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1500px;  
+    cursor: pointer;
+  }
+  
+  
+
+  .signup button{
+    background-color: rgb(34, 163, 34);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px 20px 20px 20px;
+    border-style: none;
+    cursor: pointer;
+    margin: 0 40px 0 0;
+    
+  }
+  .signup button:hover{
+    background-color: rgb(52, 204, 52);
+  }
+
+  #checkbtn{
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    font-size: 30px;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+  #check:checked ~ a{
+    margin-left: 0px;
+  }
+
+  /*<!-- ====================================== Header ======================= -->*/
+.header{
+background-color: white;
+overflow: hidden;
+}
+.header a{
+    float: left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    font-weight: 2000px;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+ /*<!-- ====================================== Section ======================= -->*/
+.content h2{
+    padding: 30px 20px 0 50px;
+    font-size: 80px;
+    margin: 0 80px 20px 20px;
+    font-weight: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(22, 163, 22);
+}
+.content p{
+    color: rgb(59, 51, 51);
+   font-size: 22px;
+   padding: 0 0 0 70px;
+   font-weight: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.get-started button{
+    background-color: rgb(34, 163, 34);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 35px 10px 10px 70px;
+    border-style: none;
+    cursor: pointer;
+  }
+  .get-started button:hover{
+    background-color: rgb(52, 204, 52);
+  }
+
+.icon p{
+    font-size: 20px;
+    padding: 50px 0 0 70px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon img{
+    padding: 5px 0 0 40px;
+}
+.side-img img{
+    float: right;
+    padding: 20px 60px 10px 10px;
+
+    /*<!-- ====================================== Ad ======================= -->*/
+}
+.ad video{
+    padding: 0 0 0 50px;
+    margin-top: -120px;
+}
+
+.ad h1{
+    float: right;
+    font-size: 40px;
+    padding: 70px 250px 90px 30px;
+   
+}
+/* .ad h3{
+    float: right;
+    padding: 0 550px 0 40px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 38);
+    margin-top: -430px;
+}
+.ad h3 i{
+    padding: 0 8px 10px 0;
+}  */
+.p1{
+    float: right;
+    padding: 10px 570px 0 20px;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 38);
+    margin-top: -440px;
+    font-weight: bold;
+}
+.p1 i{
+    font-size: 20px;
+
+}
+
+.para1{
+    float: right;
+    margin-top: -400px;
+    padding: 10px 140px 0 0;
+    font-size: 18px;
+}
+.p2{
+    float: right;
+    padding: 10px 430px 0 20px;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 38);
+    margin-top: -350px;
+    font-weight: bold;
+}
+.p2 i{
+    font-size: 20px;
+
+}
+.para2{
+    float: right;
+    margin-top: -300px;
+    padding: 5px 170px 0 0;
+    font-size: 18px;
+}
+.p3{
+    float: right;
+    padding: 8px 240px 0 20px;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(39, 38, 38);
+    margin-top: -250px;
+    font-weight: bold;
+}
+.para3{
+    float: right;
+    margin-top: -200px;
+    padding: 5px 90px 0 0;
+    font-size: 18px;
+}
+.p3 i{
+    font-size: 20px;
+
+}
+.sign-up{
+    float: right;
+    padding: 0 600px 0 0 ;
+    margin-top: -140px;
+}
+.sign-up button{
+    /* float:inline-end; */
+    background-color: rgb(34, 134, 34);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+    /* margin: 35px 10px 10px 70px; */
+    margin-top: -130px;
+    border-style: none;
+    cursor: pointer;
+    
+  }
+
+.sign-up button:hover{
+    background-color: rgb(40, 165, 40);
+  }
+
+  .hire{
+    float: right;
+    padding: 0 400px 0 0 ;
+    margin-top: -140px;
+    
+}
+.hire button{
+    background-color: white;
+    color: rgb(43, 138, 43);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgb(12, 116, 12);
+    margin-top: -130px;
+    border-style:solid;  
+    cursor: pointer; 
+  }
+  .hire button:hover{
+    background-color: rgb(240, 236, 236);
+  }
+
+  /*<!-- ====================================== Text ======================= -->*/
+  .text h1{
+    padding: 0 0 0 50px;
+    font-size: 40px;
+    margin-top: -90px;
+  }
+  .text p{
+    padding: 10px 0 0 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.text a{
+    color: rgb(41, 139, 41);
+    text-decoration: underline;
+    
+}
+.text a:hover{
+    background-color: rgb(242, 250, 242);
+}
+    /*<!-- ===================== Cards ========================-->*/
+.cards{
+    display: flex;
+    transition: 0.3s;
+    width: 250px;
+    height: 120px;
+    background-color: rgb(238, 253, 238);
+    margin: 50px 20px 10px 40px;
+    padding: 20px 0 0 10px;
+    border-radius: 8px 8px 8px 8px;
+}
+.cards:hover{
+   background-color: rgb(210, 231, 210);
+}
+
+.container {
+    padding: 2px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;  
+}
+.rating{
+    float:left;
+    font-size: 15px;
+    padding: 20px 0 0 0;
+}
+.rating i{
+    color: green;
+}
+.skills{
+    float: right;
+    font-size: 15px;
+    padding: 20px 0 0 0;
+}
+.second-column{
+    float: right;
+    margin-top: -350px;
+    margin-right: 700px;
+}
+
+.third-column{
+    float: right;
+    margin-top: -350px;
+    margin-right: 370px;
+}
+
+.fourth-column{
+    float: right;
+    margin-top: -350px;
+    margin-right: 50px;
+}
+
+/* <!-- ====================== Ad2 ============================== -->*/
+.ad2 img{
+    width: 1300px;
+    padding: 40px 0px 0 20px;
+}
+
+/* <!-- ====================== Ad3 ============================== -->*/
+.ad3 img{
+    width: 1330px;
+    padding: 40px 0px 0 20px;
+}
+
+/* <!-- ====================== Ad4 ============================== -->*/
+.ad4{
+    padding: 30px 0 0 20px;
+
+}
+
+/* <!-- ====================== Ad5 ============================== -->*/
+.ad5 img{
+    width: 1350px;
+    padding: 40px 0px 0 20px;
+}
+
+
+/* <!-- ====================== Ad6 ============================== -->*/
+.ad6{
+padding: 20px 0 0 30px;
+background-color: rgb(244, 250, 244);
+margin: 90px 60px 20px 60px ;
+border-radius: 10px 10px 10px 10px;
+height: 180px;
+
+}
+
+.ad6-content h1{
+    font-size: 40px;
+}
+.ad6-content p{
+    font-size: 20px;
+    color: rgb(66, 65, 65);
+    padding: 10px 0 40px 0;
+}
+
+.learn-more button{
+    background-color: white;
+    color: rgb(43, 138, 43);
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px 20px 20px 20px;
+    border-color: rgb(12, 116, 12);
+    margin-top: -130px;
+    border-style:solid;  
+    cursor: pointer; 
+  }
+  .learn-more button:hover{
+    background-color: rgb(240, 236, 236);
+  }
+  .ad6-img img{
+    float: right;
+    width: 250px;
+    margin-top: -180px;
+ padding: 15px 120px 20px 0;
+  }
+
+  /*<!-- ============================== Footer-1 =================================-->*/
+
+.footer1{
+    background-color: white;
+}
+  .footer1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    /* margin: auto; */
+    padding: 90px 0 0 0;
+    
+  } 
+  .col1{
+    font-size: 22px;
+    padding: 10px 0 0 480px;
+    color: rgb(90, 89, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -230px;  
+  
+  }
+  .col1 p{
+    padding: 20px 0 0 0;
+    cursor: pointer;
+  }
+  .col1 p:hover{
+    color: rgb(75, 161, 75);
+}
+  
+  .col2{
+    float: right;
+    margin-top: -750px;
+    font-size: 22px;
+    padding: 0 270px 0 0;
+    color: rgb(90, 89, 89);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+.col2 p{
+    padding: 20px 0 0 0;
+    cursor: pointer;
+}
+.col2 p:hover{
+    color: rgb(75, 161, 75);
+}
+.top-skills h1{
+    margin: 90px 50px 0 70px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(24, 151, 24);
+    cursor: pointer;
+}
+.trending-skills{
+  margin: 20px 0 0 70px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(234, 241, 234);
+}
+.trending-skills:hover{
+  color: rgb(24, 151, 24);
+  cursor: pointer;
+}
+
+.skills-US{
+  margin: 10px 0 0 70px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(234, 241, 234);
+}
+
+.skills-US:hover{
+  color: rgb(24, 151, 24);
+  cursor: pointer;
+}
+
+.project-catalog{
+  margin: 10px 0 0 70px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(234, 241, 234);
+}
+.project-catalog:hover{
+  color: rgb(24, 151, 24);
+  cursor: pointer;
+}
+
+.project-catalog p{
+  font-size: 12px;
+  float: right;
+  padding: 0 1000px 0 0;
+  margin-top: -25px
+}
+/* <!-- ======================= Footer =========================-->*/
+
+.footer{
+  background-color: rgb(13, 36, 13);
+  color: white;
+  /* padding: 50px 0 0 0; */
+  margin: 120px 30px 30px 30px;
+  border-radius: 8px 8px 8px 8px;
+  height: 680px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.footer-box1{
+   /* float: left; */
+  padding: 80px 60px 20px 60px;
+}
+
+.footer-box1 p{
+  padding: 15px 0 0 0;
+  cursor: pointer;
+}
+
+.footer-box1 p:hover{
+  text-decoration: underline;
+}
+
+.footer-box2{
+  float: right;
+  padding: 80px 740px 10px 10px;
+  margin-top: -485px;
+  
+}
+.footer-box2 p{
+  padding: 15px 0 0 0;
+  cursor: pointer
+}
+
+.footer-box2 p:hover{
+  text-decoration: underline;
+}
+
+.footer-box3{
+  float: right;
+  margin-top: -400px;
+  padding: 0 450px 0 0;
+}
+.footer-box3 p{
+  padding: 15px 0 0 0;
+  cursor: pointer
+}
+.footer-box3 p:hover{
+  text-decoration: underline;
+}
+
+.footer-box4{
+  float: right;
+  margin-top: -400px;
+  padding: 0 100px 0 0;
+}
+.footer-box4 p{
+  padding: 15px 0 0 0;
+  cursor: pointer
+}
+.footer-box4 p:hover{
+  text-decoration: underline;
+}
+
+.follow{
+  padding: 30px 20px 20px 60px;
+}
+
+.follow h3{
+  font-size: 18px;
+}
+
+.follow i{
+  padding: 0 0 0 20px;
+}
+.follow i:hover{
+  color: rgb(58, 56, 56);
+}
+
+.app{
+  float: right;
+  margin-top: -30px;
+  padding: 0 70px 0 0;
+  
+}
+.app i{
+  padding: 0 0 0 20px;
+}
+
+.app i:hover{
+  color: rgb(58, 56, 56);
+}
+.footer-text{
+  display: flex;
+}
+.footer-text h3{
+  font-size: 15px;
+  padding: 20px 50px 20px 70px;
+}
+.footer-text p{
+  padding: 20px 0 0 20px;
+  cursor: pointer;
+}
+
+.footer-text p:hover{
+  text-decoration: underline;
+}
+
+.res-footer{
+  display: none;
+}
+
+
+
+
+/*<!-- ================================== media queries ==============================-->*/
+ @media only screen and (max-width: 768px){
+  /*<!-- ======================================= navbar ============================================= -->*/
+  #checkbtn{
+    display: block;
+  }
+  
+
+  .navbar a{
+    width: 100%;
+    /* height: 100vh; */
+     margin-left: -900px;
+    display: none;
+  }
+
+  .login{
+    display: none;
+  }
+
+  .signup{
+    margin-left: 80px;
+    padding: 10px 0 0 120px;
+  }
+ .search-class{
+  display: none;
+ }
+ .search-talent{
+  display: none;
+ }
+ .search-icon{
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+ }
+
+ .header{
+  display: none;
+ }
+
+ .side-img{
+  display: none;
+ }
+
+.content h2{
+  font-size: 70px;
+}
+
+.content p{
+  font-size: 18px;
+}
+
+.ad video{
+  width: 700px;
+  padding: 70px 40px 0 60px;
+    /* margin-top: -80px; */
+ }
+
+.ad h1{
+  padding: 5px 200px 0 0;
+}
+ .p1{
+  padding: 470px 500px 0 0;
+  
+} 
+
+
+.para1{
+  padding: 410px 300px 0 100px;
+  font-size: 20px;
+}
+.p2{
+  padding: 400px 350px 0 0;
+}
+.para2{
+  padding: 310px 300px 0 100px;
+  font-size: 20px;
+}
+.p3{
+  padding: 300px 160px 0 0;
+}
+.para3{
+  padding: 210px 250px 0 100px;
+  font-size: 20px;
+}
+.sign-up{
+  display: none;
+}
+.hire{
+  padding: 200px 470px 0 0;
+}
+.hire button{
+  padding: 10px 50px 10px 50px;
+}
+
+
+.text {
+  padding: 680px 0 0 30px;
+}
+ .text p{
+  font-size: 18px;
+ }
+
+
+.cards {
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  margin: 50px;
+  padding: 50px;
+}
+
+.second-column,
+.third-column,
+.fourth-column {
+  float: none;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.ad2 img {
+  width: 93%;
+  padding: 20px;
+}
+
+.ad3 img {
+  width: 95%;
+  padding: 20px;
+}
+
+.ad4 img {
+  width: 93%;
+  padding: 20px;
+}
+
+.ad5 img {
+  width: 95%;
+  padding: 20px;
+}
+
+.ad6{
+  width: 80%;
+  height: 230px;
+}
+.ad6-content p{
+  font-size: 15px;
+}
+
+.ad6-img img{
+  margin-top: -150px;
+}
+
+.top-skills{
+  margin-right: 500px;
+  
+}
+
+.top-skills h1{
+  font-size: 25px;
+}
+
+.trending-skills{
+  margin-right: 400px;
+}
+.trending-skills h1{
+  font-size: 25px;
+}
+.skills-US{
+  margin-right: 500px;
+}
+.skills-US h1{
+  font-size: 25px;
+}
+.project-catalog{
+  margin-right: 400px;
+}
+
+.project-catalog h1{
+  font-size: 25px;
+}
+.footer1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  /* margin: auto; */
+  padding: 60px 0 0 0;
+  
+}
+.col1{
+  font-size: 18px;
+  padding: 10px 0 0 290px;
+  color: rgb(90, 89, 89);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -190px;  
+
+}
+.col1 p{
+  padding: 20px 0 0 0;
+  cursor: pointer;
+}
+.col2{
+  float: right;
+  margin-top: -655px;
+  font-size: 18px;
+  padding: 0 60px 0 0;
+  color: rgb(90, 89, 89);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.col2 p{
+  padding: 20px 0 0 0;
+  cursor: pointer;
+}
+
+.footer {
+  margin: 80px 15px;
+  height: auto;
+  font-size: 10px;
+}
+
+.footer-box2 {
+  padding: 80px 400px 10px 20px;
+  margin-top: -415px;
+}
+
+.footer-box3 {
+  margin-top: -340px;
+  padding: 0 250px 0 0;
+}
+
+.footer-box4 {
+  margin-top: -340px;
+  padding: 0 50px 0 0;
+}
+
+.app {
+  float: right;
+  margin-top: -40px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.footer-text h3 {
+  padding: 20px;
+  font-size: 10px;
+}
+
+
+.res-footer{
+  display: none;
+}
+ }
+
+
+ @media only screen and (max-width: 600px) {
+  #checkbtn{
+    display: block;
+  }
+  .signup{
+    margin-left: 80px;
+    padding: 10px 0 0 100px;
+  }
+ .search-class{
+  display: none;
+ }
+ .search-talent{
+  display: none;
+ }
+ .search-icon{
+  display: block;
+  padding-top: 10px;
+  font-size: 20px;
+ }
+
+ .header{
+  display: none;
+ }
+
+ .side-img{
+  display: none;
+ }
+.content{
+  margin-left: -20px;
+}
+.content h2{
+  font-size: 50px;
+}
+
+.content p{
+  font-size: 15px;
+}
+.get-started{
+  margin-left: -20px;
+}
+.icon{
+  margin-left: -20px;
+}
+
+.ad video{
+  width: 600px;
+  padding: 70px 60px 0 60px;
+    /* margin-top: -80px; */
+ }
+
+.ad h1{
+  padding: 5px 80px 0 0;
+}
+ .p1{
+  padding: 470px 370px 0 0;
+  
+} 
+
+
+.para1{
+  padding: 410px 150px 0 80px;
+  font-size: 15px;
+}
+.p2{
+  padding: 400px 230px 0 0;
+}
+.para2{
+  padding: 310px 200px 0 80px;
+  font-size: 15px;
+}
+.p3{
+  padding: 300px 50px 0 0;
+}
+.para3{
+  padding: 210px 150px 0 80px;
+  font-size: 15px;
+}
+.sign-up{
+  display: none;
+}
+.hire{
+  padding: 200px 470px 0 0;
+}
+.hire button{
+  padding: 5px 20px 5px 20px;
+  margin-right:  -70px;
+}
+
+
+.text {
+  padding: 640px 0 0 10px;
+}
+ .text p{
+  font-size: 15px;
+ }
+
+.top-skills{
+  margin-right: 300px;
+  /* margin-left: -30px; */
+  
+}
+
+.top-skills h1{
+  font-size: 20px;
+}
+
+.trending-skills{
+  margin-right: 200px;
+  /* margin-left: -1px; */
+}
+.trending-skills h1{
+  font-size: 20px;
+}
+.skills-US{
+  margin-right: 300px;
+  
+}
+.skills-US h1{
+  font-size: 20px;
+}
+.project-catalog{
+  margin-right: 200px;
+  
+}
+
+.project-catalog h1{
+  font-size: 20px;
+}
+.footer1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  /* margin: auto; */
+  padding: 60px 0 0 0;
+  
+}
+.col1{
+  font-size: 12px;
+  padding: 10px 0 0 250px;
+  color: rgb(90, 89, 89);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -190px;  
+
+}
+.col1 p{
+  padding: 20px 0 0 0;
+  cursor: pointer;
+}
+.col2{
+  float: right;
+  margin-top: -545px;
+  font-size: 12px;
+  padding: 0 50px 0 0;
+  color: rgb(90, 89, 89);
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.col2 p{
+  padding: 20px 0 0 0;
+  cursor: pointer;
+}
+
+.footer {
+  margin: 80px 15px;
+  height: auto;
+  font-size: 10px;
+}
+.footer-box1{
+  margin-left: -40px;
+}
+.footer-box2 {
+  padding: 80px 300px 10px 10px;
+  margin-top: -410px;
+}
+
+.footer-box3 {
+  margin-top: -340px;
+  padding: 0 180px 0 0;
+}
+
+.footer-box4 {
+  margin-top: -340px;
+  padding: 0 20px 0 0;
+}
+
+.app {
+  float: right;
+  margin-top: -40px;
+  padding-right: 30px;
+  text-align: center;
+}
+.app h3{
+  font-size: 15px;
+}
+.app i{
+  padding: 0 0 0 10px;
+}
+.follow h3{
+  margin-left: -40px;
+  font-size: 15px;
+}
+.follow i{
+  padding: 0 5px 0 10px;
+}
+
+.footer-text h3 {
+  padding: 20px;
+  font-size: 10px;
+  
+}
+.footer-text p{
+  font-size: 10px;
+  margin-right: 20px;
+}
+
+
+.res-footer{
+  display: none;
+}
+ }
+
+
+
+
+
+
+ @media only screen and (min-width: 360px) and (max-width: 640px){
+  .navbar{
+    border-bottom: 1px solid;
+    
+  }
+  .logo img{
+    width: 70px;
+    padding-top: 15px;
+  }
+ 
+  #checkbtn{
+    display: block;
+    font-size: 20px;
+    
+  }
+  .signup{
+    margin-left: 180px;
+    padding: 0 0 0 10px;
+    margin-top: -110px;
+  }
+  .signup button{
+    padding: 5px 10px 5px 10px;
+  }
+  .signup p{
+    font-size: 12px;
+  }
+ .search-class{
+  display: none;
+ }
+ .search-talent{
+  display: none;
+ }
+ .search-icon{
+  display: block;
+  margin-top: -120px;
+  font-size: 15px;
+ }
+
+ 
+
+ .header{
+  display: none;
+ }
+
+ .side-img{
+  display: none;
+ }
+.content{
+  margin-left: -50px;
+}
+.content h2{
+  font-size: 30px;
+}
+
+.content p{
+  font-size: 10px;
+}
+.get-started{
+  margin-left: -50px;
+  margin-top: -15px;
+}
+.get-started button{
+  padding: 10px 10px 10px 10px;
+}
+.icon{
+  margin-left: -50px;
+}
+.icon p{
+  margin-top: -30px;
+  font-size: 15px;
+}
+.icon img{
+  width: 250px;
+  
+}
+
+.ad video{
+  width: 300px;
+  padding: 0 30px 0 10px;
+    margin-top: -220px;
+ }
+
+.ad h1{
+  padding: 5px 100px 0 0;
+  font-size: 20px;
+  margin-top: -200px;
+}
+ .p1{
+  padding: 280px 200px 0 0;
+  font-size: 15px;
+  /* margin-top: -900px; */
+} 
+.p1 i{
+  font-size: 15px;
+}
+
+
+.para1{
+  padding: 270px 100px 0 50px;
+  font-size: 12px;
+}
+.p2{
+  padding: 270px 110px 0 0;
+  font-size: 15px;
+}
+.p2 i{
+  font-size: 15px;
+}
+.para2{
+  padding: 250px 100px 0 50px;
+  font-size: 12px;
+}
+.p3{
+  padding: 250px 80px 0 80px;
+  font-size: 15px;
+  margin-left: -50px;
+}
+.p3 i{
+  font-size: 10px;
+}
+.para3{
+  padding: 220px 100px 0 40px;
+  font-size: 12px;
+}
+.sign-up{
+  display: none;
+}
+.hire{
+  padding: 180px 240px 0 0;
+}
+.hire button{
+  padding: 5px 20px 5px 20px;
+  margin-right:  -70px;
+}
+
+
+.text {
+  padding: 350px 20px 0 0;
+  margin-left: -30px;
+}
+.text h1{
+  font-size: 30px;
+}
+ .text p{
+  font-size: 12px;
+ }
+
+ .cards {
+  flex-direction: column;
+  width: 70%;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  
+}
+
+.second-column,
+.third-column,
+.fourth-column {
+  float: none;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+
+
+.ad2 img {
+  width: 80%;
+  height: 200px;
+  padding: 20px;
+}
+
+.ad3 img {
+  width: 80%;
+  height: 200px;
+  padding: 20px;
+}
+
+.ad4 img {
+  width: 85%;
+  height: 200px;
+  padding: 20px;
+  margin-left: -20px;
+}
+
+.ad5 img {
+  width: 85%;
+  height: 200px;
+  padding: 20px;
+}
+
+.ad6{
+  width: 85%;
+  height: 250px;
+  margin-left: -2px;
+ 
+}
+
+.ad6-content h1{
+  font-size: 20px;
+  padding: 20px 0 0 0;
+}
+.ad6-content p{
+  font-size: 12px;
+  padding: 10px 40px 0 0;
+}
+
+.ad6-img img{
+  margin-top: -150px;
+  padding-left: 60px;
+  
+  
+}
+.learn-more{
+  padding: 30px 0 0 0;
+}
+
+
+
+.top-skills{
+  margin-right: 50px;
+  margin-left: -50px;
+  
+}
+
+.top-skills h1{
+  font-size: 15px;
+}
+
+.trending-skills{
+  margin-right: 100px;
+  margin-left: 20px;
+  
+  
+  
+}
+.trending-skills h1{
+  font-size: 15px;
+}
+.skills-US{
+  margin-right: 100px;
+  margin-left: 20px;
+  
+}
+.skills-US h1{
+  font-size: 15px;
+}
+.project-catalog{
+  margin-right: 100px;
+  margin-left: 20px;
+  
+}
+
+.project-catalog h1{
+  font-size: 15px;
+}
+
+.footer1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 800px;
+  /* margin: auto; */
+  padding: 60px 0 0 0;
+  
+}
+.col1{
+  font-size: 12px;
+  padding: 10px 0 0 250px;
+  color: rgb(90, 89, 89);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -190px;  
+
+}
+.col1 p{
+  padding: 20px 0 0 0;
+  cursor: pointer;
+}
+.col2{
+display: none;
+  
+}
+
+
+.footer {
+  margin: 50px 8px;
+  height: auto;
+}
+
+.footer-box1,
+.footer-box2,
+.footer-box3,
+.footer-box4 {
+  float: none;
+  padding: 70px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.follow,
+.app {
+  float: none;
+  margin-top: 10px;
+  padding: 0 50px;
+}
+
+.footer-text h3 {
+  padding: 10px 10px;
+  font-size: 10px;
+}
+
+.footer-text p {
+  padding: 10px 0 0 10px;
+  font-size: 8px;
+}
+
+
+
+ }
