@@ -13,3 +13,6 @@ Implement responsive design using media queries to adapt the landing page to dif
 ## CONTRIBUTING:
 Contributions to the Upwork landing page are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request. 
 Your contributions will help enhance the overall experience for visitors.
+## LIVE PREVIEW:
+Explore a live preview of the Upwork landing page at the given link:
+https://up-work-d38be.web.app/
